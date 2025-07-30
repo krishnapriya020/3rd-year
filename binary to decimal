@@ -1,6 +1,6 @@
 # convert binary to decimal 
 def binaryToDecimal(self, b):
-		# Code here 
+# Code here 
 		resNumber = 0 
 		p2 = 1 
 		for i in range(len(b)-1,-1,-1):
@@ -8,3 +8,5 @@ def binaryToDecimal(self, b):
 		        resNumber+=p2 
 		    p2*=2 
 		return resNumber   
+
+		
