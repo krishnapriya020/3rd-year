@@ -1,0 +1,6 @@
+Toggle ith bit
+#code
+n=int(input())
+k=int(input())
+n=n^(1<<k)(^ is  operator)
+print(n)
