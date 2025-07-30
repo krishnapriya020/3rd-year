@@ -1,0 +1,7 @@
+change non set bit place to set bit
+#we will keep 1 in non set bit and rest all 0s
+#code
+n=int(input())
+k=int(input())
+n=n|(1<<k) #or operation
+return n
