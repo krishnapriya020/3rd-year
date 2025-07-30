@@ -1,0 +1,6 @@
+clear ith bit(change set-bit to non-set bit)
+#1st left shift(1<<k) then negation(changes 1 to 0 and 0 to 1) then AND operation with n
+n=int(input())
+k=int(input())
+n=n&(~(1<<k))
+print(n)
